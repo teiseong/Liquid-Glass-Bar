@@ -1,0 +1,13 @@
+name: liquid_glass_bar_example
+description: Example app demonstrating the liquid_glass_bar package.
+publish_to: none
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  liquid_glass_bar:
+    path: ../

@@ -1,0 +1,21 @@
+name: liquid_glass_bar
+description: A beautiful iOS-inspired liquid glass bottom navigation bar for Flutter with smooth animations, drag interaction, and glass morphism effects.
+version: 0.1.0
+homepage: https://github.com/teiseong/liquid-glass-bar
+repository: https://github.com/teiseong/liquid-glass-bar
+issue_tracker: https://github.com/teiseong/liquid-glass-bar/issues
+
+environment:
+  sdk: ^3.10.4
+  flutter: ">=3.32.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  liquid_glass_renderer: ^0.2.0-dev.4
+  flutter_svg: ^2.0.10+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
