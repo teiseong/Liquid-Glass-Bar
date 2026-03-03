@@ -8,7 +8,9 @@ A beautiful iOS-inspired liquid glass bottom navigation bar for Flutter with smo
 
 **Author:** Tai Thai | [GitHub](https://github.com/teiseong) | [LinkedIn](https://www.linkedin.com/in/taithai1103/) | [Email](mailto:thaithanhtai999@gmail.com)
 
-<!-- Add a screenshot or GIF preview here -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/teiseong/Liquid-Glass-Bar/main/demo.gif" alt="Liquid Glass Bar Demo" width="300" />
+</p>
 
 ## Features
 
@@ -62,41 +64,41 @@ Scaffold(
 
 The main widget. Place it as the `bottomNavigationBar` of a `Scaffold`.
 
-| Parameter      | Type                          | Required | Description                                |
-| -------------- | ----------------------------- | -------- | ------------------------------------------ |
+| Parameter      | Type                       | Required | Description                                |
+| -------------- | -------------------------- | -------- | ------------------------------------------ |
 | `items`        | `List<LiquidGlassBarItem>` | Yes      | Navigation items (minimum 2)               |
-| `currentIndex` | `int`                         | Yes      | Currently selected item index              |
-| `onTap`        | `ValueChanged<int>`           | Yes      | Callback when an item is tapped or dragged |
+| `currentIndex` | `int`                      | Yes      | Currently selected item index              |
+| `onTap`        | `ValueChanged<int>`        | Yes      | Callback when an item is tapped or dragged |
 | `style`        | `LiquidGlassBarStyle?`     | No       | Style customization                        |
 
 ### LiquidGlassBarItem
 
 Data model for each navigation item. At least one icon source must be provided.
 
-| Parameter      | Type       | Description              |
-| -------------- | ---------- | ------------------------ |
-| `svgAssetPath` | `String?`  | Path to an SVG asset     |
-| `iconData`     | `IconData?`| Material/Cupertino icon  |
-| `iconWidget`   | `Widget?`  | Custom widget icon       |
-| `label`        | `String`   | Text label for the item  |
+| Parameter      | Type        | Description             |
+| -------------- | ----------- | ----------------------- |
+| `svgAssetPath` | `String?`   | Path to an SVG asset    |
+| `iconData`     | `IconData?` | Material/Cupertino icon |
+| `iconWidget`   | `Widget?`   | Custom widget icon      |
+| `label`        | `String`    | Text label for the item |
 
 ### LiquidGlassBarStyle
 
 Full style customization for the navigation bar.
 
-| Property              | Type                  | Default                              |
-| --------------------- | --------------------- | ------------------------------------ |
-| `liquidGlassSettings` | `LiquidGlassSettings?`| Built-in defaults                    |
-| `activeColor`         | `Color`               | `Color(0xFF10B981)` (emerald)        |
-| `inactiveColor`       | `Color`               | `Color(0xFFA1A1AA)` (neutral gray)   |
-| `borderRadius`        | `double`              | `32`                                 |
-| `height`              | `double`              | `57`                                 |
-| `padding`             | `EdgeInsets`          | `EdgeInsets.fromLTRB(20, 12, 20, 32)`|
-| `animationDuration`   | `Duration`            | `250ms`                              |
-| `animationCurve`      | `Curve`               | `Curves.easeOutQuad`                 |
-| `iconSize`            | `double`              | `24`                                 |
-| `selectedIconScale`   | `double`              | `1.2`                                |
-| `labelStyle`          | `TextStyle?`          | `null` (uses built-in style)         |
+| Property              | Type                   | Default                               |
+| --------------------- | ---------------------- | ------------------------------------- |
+| `liquidGlassSettings` | `LiquidGlassSettings?` | Built-in defaults                     |
+| `activeColor`         | `Color`                | `Color(0xFF10B981)` (emerald)         |
+| `inactiveColor`       | `Color`                | `Color(0xFFA1A1AA)` (neutral gray)    |
+| `borderRadius`        | `double`               | `32`                                  |
+| `height`              | `double`               | `57`                                  |
+| `padding`             | `EdgeInsets`           | `EdgeInsets.fromLTRB(20, 12, 20, 32)` |
+| `animationDuration`   | `Duration`             | `250ms`                               |
+| `animationCurve`      | `Curve`                | `Curves.easeOutQuad`                  |
+| `iconSize`            | `double`               | `24`                                  |
+| `selectedIconScale`   | `double`               | `1.2`                                 |
+| `labelStyle`          | `TextStyle?`           | `null` (uses built-in style)          |
 
 ## Customization
 
@@ -142,13 +144,13 @@ LiquidGlassBar(
 );
 ```
 
-| Property         | Type     | Default | Description                              |
-| ---------------- | -------- | ------- | ---------------------------------------- |
-| `thickness`      | `double` | `20.0`  | Thickness of the glass layer             |
-| `blur`           | `double` | `16.0`  | Background blur intensity                |
-| `glassColor`     | `Color`  | White 80% opacity | Tint color of the glass     |
-| `lightIntensity` | `double` | `0.6`   | Brightness of the specular light effect  |
-| `refractiveIndex`| `double` | `1.5`   | How much light bends through the glass   |
+| Property          | Type     | Default           | Description                             |
+| ----------------- | -------- | ----------------- | --------------------------------------- |
+| `thickness`       | `double` | `20.0`            | Thickness of the glass layer            |
+| `blur`            | `double` | `16.0`            | Background blur intensity               |
+| `glassColor`      | `Color`  | White 80% opacity | Tint color of the glass                 |
+| `lightIntensity`  | `double` | `0.6`             | Brightness of the specular light effect |
+| `refractiveIndex` | `double` | `1.5`             | How much light bends through the glass  |
 
 ## Requirements
 
@@ -157,7 +159,7 @@ LiquidGlassBar(
 
 ## Contributing
 
-Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/teiseong/liquid-glass-bar).
+Contributions are welcome! Please open an issue or submit a pull request on [GitHub](https://github.com/teiseong/Liquid-Glass-Bar).
 
 ## License
 
